@@ -1,20 +1,22 @@
-import { Book } from '../types/Book';
+import { Book } from "../types/Book";
 
 export const books: Book[] = [
   {
-    id: '1',
+    id: "1",
     title: "50 Questions Réponses sur la Croyance",
-    description: "Un livre essentiel pour comprendre les fondements de la croyance islamique à travers 50 questions-réponses détaillées.",
-    price: 15.99,
-    imageUrl: "/croyance-cover.jpg",
-    priceId: "price_H5ggYwtDq9"
+    description:
+      "Un livre essentiel pour comprendre les fondements de la croyance islamique à travers 50 questions-réponses détaillées.",
+    price: 19.99,
+    imageUrl: "/croyance.jpeg",
+    priceId: "price_H5ggYwtDq9",
   },
   {
-    id: '2',
+    id: "2",
     title: "La Voie du Petit Musulman",
-    description: "Un guide précieux pour l'apprentissage des hadiths du Prophète, adapté aux jeunes musulmans.",
-    price: 12.99,
-    imageUrl: "/petit-musulman-cover.jpg",
-    priceId: "price_H5ggYwtDq8"
-  }
+    description:
+      "Un guide précieux pour l'apprentissage des hadiths du Prophète, adapté aux jeunes musulmans.",
+    price: 19.99,
+    imageUrl: "/la_voie_du_petit_musulman.jpeg",
+    priceId: "price_H5ggYwtDq8",
+  },
 ];
